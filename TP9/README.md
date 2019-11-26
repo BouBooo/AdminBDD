@@ -15,6 +15,10 @@ grafana:
       - internal
 ```
 
+On a maintenant accès à Grafana sur ```localhost:3000``` : 
+
+!['Alert config'](https://github.com/BouBooo/AdminBDD/blob/master/img/graf.PNG "Alert")
+
 
 
 
