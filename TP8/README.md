@@ -71,8 +71,11 @@ ___
 
 ### Création de notre user exporter
 > La création de l'utilisateur se faire depuis un shell sur le container maria.
-Commande : 
-> docker exec -it maria_container_name bash
+ 
+```
+docker exec -it maria_container_name bash
+```
+---
 
 ```sql
 CREATE USER 'exporter'@'%' IDENTIFIED BY 'toor' WITH MAX_USER_CONNECTIONS 3;
