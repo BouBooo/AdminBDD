@@ -2,4 +2,4 @@
 
 ## Ajout d'un canal d'alerte : Discord
 
-![alt text](https://github.com/BouBooo/AdminBDD/master/img/alert.png "Alert")
+!['Alert config'](https://github.com/BouBooo/AdminBDD/blob/master/img/alert_1.PNG "Alert")
