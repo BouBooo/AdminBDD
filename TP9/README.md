@@ -20,6 +20,15 @@ On a maintenant accès à Grafana sur ```localhost:3000``` :
 !['Alert config'](https://github.com/BouBooo/AdminBDD/blob/master/img/graf.PNG "Alert")
 
 
+#### Création d'un dashboad contenant 3 pannels avec les informations suivantes :
+- Taux d'opérations de lecture
+- Nombre total de tentatives de connexion refusées
+- Temps nécéssaire à l'exporter pour scrapper les données liées aux connections
+
+
+
+
+
 
 
 
