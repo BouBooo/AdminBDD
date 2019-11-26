@@ -1,0 +1,54 @@
+version: '3.7'
+
+services:
+  maria:
+    image: mariadb:10.4
+    restart: on-failure
+    environment:
+     MYSQL_ROOT_PASSWORD: toor
+     MYSQL_DATABASE: test
+     MYSQL_USER: exporter
+     MYSQL_PASSWORD: toor
+    ports:
+     - "3306"
+    volumes:
+      - ./db.sql:/data/db.sql
+      - ./dump:/dump
+    networks:
+     - internal
+
+  prometheus:
+    image: prom/prometheus
+    hostname: prometheus
+    restart: on-failure
+    ports:
+     - "9090:9090"
+    volumes:
+     - ./conf/prometheus.yml:/etc/prometheus/prometheus.yml
+     - ./prometheus_data:/prometheus
+    networks:
+     - internal
+
+  mysql_exporter:
+    image: prom/mysqld-exporter
+    restart: on-failure
+    ports:
+     - "9104:9104"
+    environment:
+     - "DATA_SOURCE_NAME=root:toor@(maria:3306)/"
+    networks:
+     - internal
+
+  grafana:
+    image: grafana/grafana:latest
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=pass
+    depends_on:
+      - prometheus
+    ports:
+      - "3000:3000"
+    networks:
+      - internal
+
+networks: 
+ internal:
