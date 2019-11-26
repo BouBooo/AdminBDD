@@ -1,0 +1,13 @@
+/backups/all-databases.sql.bz2 {
+        missingok
+        rotate 5
+        daily
+        dateext
+        dateformat %Y-%m-%d-%H-%M-%S.
+        extension bz2
+        nocompress
+        postrotate
+                mysqldump -u root -proot --all-databases | bzip2 > /backups/all-databases.sql.bz2
+        endscript
+}
+

@@ -1,0 +1,1 @@
+0 17 * * 1 mysqldump -u root --password=root --al-databases | gzip -9 -c > /backups/backups_schema.sql
