@@ -127,3 +127,6 @@ Value : 23
 > On retrouve bien les 23 rows insérées précédemment.
 
 
+___
+
+## II. Deuxième partie
