@@ -26,6 +26,7 @@ On a maintenant accès à Grafana sur ```localhost:3000``` :
 - Temps nécéssaire à l'exporter pour scrapper les données liées aux connections
 
 
+!['Alert config'](https://github.com/BouBooo/AdminBDD/blob/master/img/9.PNG "Alert")
 
 
 
