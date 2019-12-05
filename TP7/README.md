@@ -39,10 +39,10 @@ services:
 ```yml
 networks:
   internal:
-  ```
+```
   
-  > On ajouter chaque serveur dans le réseau
-  ```yml
+> On ajouter chaque serveur dans le réseau
+```yml
   networks:
       - internal
-     ```
+```
