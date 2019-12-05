@@ -35,7 +35,7 @@ FLUSH PRIVILEGES;
 ___
 
 
-## Second script
+## II.Second script
 ### Insertion de données
 ```sql
 USE teams;
