@@ -14,7 +14,5 @@
 
 !['Alert config'](https://github.com/BouBooo/AdminBDD/blob/master/img/alertt1.PNG "Alert")
 
-
-## Configuration d'une nouvelle alerte
 > Configuration d'un BOT Discord permettant de visualiser et recevoir la notification
 !['Alert config'](https://github.com/BouBooo/AdminBDD/blob/master/img/alertt2.PNG "Alert")
