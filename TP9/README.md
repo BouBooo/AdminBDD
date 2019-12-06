@@ -38,15 +38,15 @@ On a maintenant accès à Grafana sur ```localhost:3000``` :
 #### Réalisation d'un dashboard personnalisé
 > Comptes utilisateurs créés par jour
 !['Alert config'](https://github.com/BouBooo/AdminBDD/blob/master/img/req3.PNG "Alert")
-
+___
 > Nombre total de clients
 !['Alert config'](https://github.com/BouBooo/AdminBDD/blob/master/img/req1.PNG "Alert")
-
+___
 > Nombre de payments de la semaine dernière
 !['Alert config'](https://github.com/BouBooo/AdminBDD/blob/master/img/req2.PNG "Alert")
-
+___
 > Volume de ventes par jour
 !['Alert config'](https://github.com/BouBooo/AdminBDD/blob/master/img/req4.PNG "Alert")
 
 #### Résultat final
-!['Alert config'](https://github.com/BouBooo/AdminBDD/blob/master/img/dashboard.PNG "Alert")
+!['Alert config'](https://github.com/BouBooo/AdminBDD/blob/master/img/dash.PNG "Alert")
